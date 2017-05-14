@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=mascotPic\ firstlocation\ afinishline\ aCanvas
+comment0.target=Mascot(java.awt.Image,\ objectdraw.Location,\ objectdraw.Location,\ objectdraw.DrawingCanvas)
+comment0.text=\n\ Initialize\ the\ instance\ variables\ and\ start\ the\ active\ object\n
+comment1.params=
+comment1.target=void\ run()
+comment1.text=\n\ Defines\ how\ the\ animation\ progresses\ \n
+numComments=2

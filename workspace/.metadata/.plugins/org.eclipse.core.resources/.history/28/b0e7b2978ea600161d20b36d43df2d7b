@@ -1,0 +1,51 @@
+
+
+
+/**
+ * Represents a postings entry in the postings list
+ * 
+ * @author dkauchak
+ *
+ */
+public class Posting{
+	private int docID;
+	private int termFreq;
+	private int score;
+	
+	/**
+	 * Create a new posting entry
+	 * 
+	 * @param docID
+	 */
+	public Posting(int docID){
+		this.docID = docID;
+		termFreq = 0;
+		score = 0;
+	}
+	
+	/**
+	 * @return the docID associated with this posting
+	 */
+	public int docID(){
+		return docID;
+	}
+	
+	public int termFreq(){
+		return termFreq;
+	}
+	
+	public void increase(){
+		termFreq += 1;
+		score += 1;
+	}
+	
+	public int score()
+	{
+		return score;
+	}
+	
+	public void setScore(int newScore)
+	{
+		score = newScore;
+	}
+}

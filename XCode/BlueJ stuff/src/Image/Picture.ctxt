@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=filename
+comment0.target=Picture(java.lang.String)
+comment0.text=\n\ Load\ a\ picture\ from\ a\ file.\n\ @param\ filename\ the\ name\ of\ the\ file\ containing\ an\ image\ to\ load\n
+comment1.params=width\ height
+comment1.target=Picture(int,\ int)
+comment1.text=\n\ Create\ a\ blank\ picture.\n\ @param\ width\ the\ width\ of\ the\ blank\ picture\ in\ pixels\n\ @param\ height\ the\ height\ of\ the\ blank\ picture\ in\ pixels\n
+comment2.params=
+comment2.target=int\ getWidth()
+comment2.text=\n\ @return\ the\ number\ of\ columns\ of\ pixels\ in\ the\ image\n
+comment3.params=
+comment3.target=int\ getHeight()
+comment3.text=\n\ @return\ the\ number\ of\ rows\ of\ pixels\ in\ the\ image\n
+comment4.params=row\ col
+comment4.target=java.awt.Color\ getPixel(double,\ double)
+comment4.text=\n\ Get\ the\ color\ of\ a\ pixel\ at\ a\ particular\ location.\ \ This\n\ method\ will\ fail\ (with\ an\ ArrayIndexOutOfBoundsException)\n\ if\ row\ or\ col\ are\ negative\ or\ are\ beyond\ the\ bounds\ of\ the\ image.\n\ @param\ row\ the\ row\ of\ the\ pixel\n\ @param\ col\ the\ column\ of\ the\ pixel\n\ @return\ the\ color\ of\ the\ requested\ pixel\n
+comment5.params=row\ col\ color
+comment5.target=void\ setPixel(double,\ double,\ java.awt.Color)
+comment5.text=\n\ Change\ the\ color\ of\ a\ pixel\ at\ a\ particular\ location.\ \ This\ method\ \n\ does\ nothing\ if\ row\ or\ col\ are\ negative\ or\ are\ beyond\ the\ dimensions\ of\ \n\ the\ image.\n\ @param\ row\ the\ row\ of\ the\ pixel\n\ @param\ col\ the\ column\ of\ the\ pixel\n\ @param\ color\ the\ new\ color\ for\ the\ pixel\n
+comment6.params=left\ top\ canvas
+comment6.target=objectdraw.VisibleImage\ createVisibleImage(double,\ double,\ objectdraw.DrawingCanvas)
+comment6.text=\n\ Displays\ an\ image\ on\ the\ canvas.\n\ @param\ left\ the\ coordinate\ for\ the\ left\ edge\ of\ the\ image\n\ @param\ top\ the\ coordinate\ for\ the\ top\ of\ the\ image\n\ @param\ canvas\ the\ canvas\ to\ draw\ on\n\ @return\ the\ VisibleImage\ that\ was\ displayed\n
+numComments=7

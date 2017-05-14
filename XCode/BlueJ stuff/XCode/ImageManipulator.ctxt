@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ begin()
+comment1.params=point
+comment1.target=void\ onMouseClick(objectdraw.Location)
+comment2.params=
+comment2.target=void\ grayScale()
+comment3.params=
+comment3.target=void\ mirror()
+numComments=4

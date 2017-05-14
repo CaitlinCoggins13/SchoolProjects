@@ -1,0 +1,45 @@
+Valid Instructions:
+and, or, add, subtract, beq, slt
+
+Enter an integer input value: 5
+Enter another integer input value: 5
+Enter an instruction for your operation: add
+Results:
+Opcode  Result  ALUZero
+2       10      0      
+
+Enter an integer input value: 5
+Enter another integer input value: 2
+Enter an instruction for your operation: and
+Results:
+Opcode  Result  ALUZero
+0       0       0      
+
+Enter an integer input value: 5
+Enter another integer input value: 2
+Enter an instruction for your operation: or
+Results:
+Opcode  Result  ALUZero
+1       7       0      
+
+Enter an integer input value: 12
+Enter another integer input value: 6
+Enter an instruction for your operation: subtract
+Results:
+Opcode  Result  ALUZero
+6       6       0      
+
+Enter an integer input value: 8
+Enter another integer input value: 8
+Enter an instruction for your operation: beq
+Results:
+Opcode  Result  ALUZero
+6       0       1      
+
+Enter an integer input value: 7
+Enter another integer input value: 24
+Enter an instruction for your operation: slt
+Results:
+Opcode  Result  ALUZero
+7       1       0      
+

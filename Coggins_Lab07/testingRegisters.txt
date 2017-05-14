@@ -1,0 +1,1333 @@
+
+Set Read Register 1:         Press 0
+Set Read Register 2:         Press 1
+Set Write Register:          Press 2
+Set Write Data:              Press 3
+Get Read Register 1's Data:  Press 4
+Get Read Register 2's Data:  Press 5
+Write to Write Register:     Press 6
+Print All Registers:         Press 7
+Quit:                        Press -1
+
+Enter a value: 3
+
+Enter data value:0
+
+Write data set!
+
+Set Read Register 1:         Press 0
+Set Read Register 2:         Press 1
+Set Write Register:          Press 2
+Set Write Data:              Press 3
+Get Read Register 1's Data:  Press 4
+Get Read Register 2's Data:  Press 5
+Write to Write Register:     Press 6
+Print All Registers:         Press 7
+Quit:                        Press -1
+
+Enter a value: 2
+
+Which register? (0-31)0
+
+Register set!
+
+Set Read Register 1:         Press 0
+Set Read Register 2:         Press 1
+Set Write Register:          Press 2
+Set Write Data:              Press 3
+Get Read Register 1's Data:  Press 4
+Get Read Register 2's Data:  Press 5
+Write to Write Register:     Press 6
+Print All Registers:         Press 7
+Quit:                        Press -1
+
+Enter a value: 6
+Data written!
+
+Set Read Register 1:         Press 0
+Set Read Register 2:         Press 1
+Set Write Register:          Press 2
+Set Write Data:              Press 3
+Get Read Register 1's Data:  Press 4
+Get Read Register 2's Data:  Press 5
+Write to Write Register:     Press 6
+Print All Registers:         Press 7
+Quit:                        Press -1
+
+Enter a value: 2
+
+Which register? (0-31)1
+
+Register set!
+
+Set Read Register 1:         Press 0
+Set Read Register 2:         Press 1
+Set Write Register:          Press 2
+Set Write Data:              Press 3
+Get Read Register 1's Data:  Press 4
+Get Read Register 2's Data:  Press 5
+Write to Write Register:     Press 6
+Print All Registers:         Press 7
+Quit:                        Press -1
+
+Enter a value: 6
+Data written!
+
+Set Read Register 1:         Press 0
+Set Read Register 2:         Press 1
+Set Write Register:          Press 2
+Set Write Data:              Press 3
+Get Read Register 1's Data:  Press 4
+Get Read Register 2's Data:  Press 5
+Write to Write Register:     Press 6
+Print All Registers:         Press 7
+Quit:                        Press -1
+
+Enter a value: 2
+
+Which register? (0-31)2
+
+Register set!
+
+Set Read Register 1:         Press 0
+Set Read Register 2:         Press 1
+Set Write Register:          Press 2
+Set Write Data:              Press 3
+Get Read Register 1's Data:  Press 4
+Get Read Register 2's Data:  Press 5
+Write to Write Register:     Press 6
+Print All Registers:         Press 7
+Quit:                        Press -1
+
+Enter a value: 6
+Data written!
+
+Set Read Register 1:         Press 0
+Set Read Register 2:         Press 1
+Set Write Register:          Press 2
+Set Write Data:              Press 3
+Get Read Register 1's Data:  Press 4
+Get Read Register 2's Data:  Press 5
+Write to Write Register:     Press 6
+Print All Registers:         Press 7
+Quit:                        Press -1
+
+Enter a value: 2
+
+Which register? (0-31)3
+
+Register set!
+
+Set Read Register 1:         Press 0
+Set Read Register 2:         Press 1
+Set Write Register:          Press 2
+Set Write Data:              Press 3
+Get Read Register 1's Data:  Press 4
+Get Read Register 2's Data:  Press 5
+Write to Write Register:     Press 6
+Print All Registers:         Press 7
+Quit:                        Press -1
+
+Enter a value: 6
+Data written!
+
+Set Read Register 1:         Press 0
+Set Read Register 2:         Press 1
+Set Write Register:          Press 2
+Set Write Data:              Press 3
+Get Read Register 1's Data:  Press 4
+Get Read Register 2's Data:  Press 5
+Write to Write Register:     Press 6
+Print All Registers:         Press 7
+Quit:                        Press -1
+
+Enter a value: 2
+
+Which register? (0-31)4
+
+Register set!
+
+Set Read Register 1:         Press 0
+Set Read Register 2:         Press 1
+Set Write Register:          Press 2
+Set Write Data:              Press 3
+Get Read Register 1's Data:  Press 4
+Get Read Register 2's Data:  Press 5
+Write to Write Register:     Press 6
+Print All Registers:         Press 7
+Quit:                        Press -1
+
+Enter a value: 6
+Data written!
+
+Set Read Register 1:         Press 0
+Set Read Register 2:         Press 1
+Set Write Register:          Press 2
+Set Write Data:              Press 3
+Get Read Register 1's Data:  Press 4
+Get Read Register 2's Data:  Press 5
+Write to Write Register:     Press 6
+Print All Registers:         Press 7
+Quit:                        Press -1
+
+Enter a value: 2
+
+Which register? (0-31)5
+
+Register set!
+
+Set Read Register 1:         Press 0
+Set Read Register 2:         Press 1
+Set Write Register:          Press 2
+Set Write Data:              Press 3
+Get Read Register 1's Data:  Press 4
+Get Read Register 2's Data:  Press 5
+Write to Write Register:     Press 6
+Print All Registers:         Press 7
+Quit:                        Press -1
+
+Enter a value: 6
+Data written!
+
+Set Read Register 1:         Press 0
+Set Read Register 2:         Press 1
+Set Write Register:          Press 2
+Set Write Data:              Press 3
+Get Read Register 1's Data:  Press 4
+Get Read Register 2's Data:  Press 5
+Write to Write Register:     Press 6
+Print All Registers:         Press 7
+Quit:                        Press -1
+
+Enter a value: 3
+
+Enter data value:52
+
+Write data set!
+
+Set Read Register 1:         Press 0
+Set Read Register 2:         Press 1
+Set Write Register:          Press 2
+Set Write Data:              Press 3
+Get Read Register 1's Data:  Press 4
+Get Read Register 2's Data:  Press 5
+Write to Write Register:     Press 6
+Print All Registers:         Press 7
+Quit:                        Press -1
+
+Enter a value: 2
+
+Which register? (0-31)6
+
+Register set!
+
+Set Read Register 1:         Press 0
+Set Read Register 2:         Press 1
+Set Write Register:          Press 2
+Set Write Data:              Press 3
+Get Read Register 1's Data:  Press 4
+Get Read Register 2's Data:  Press 5
+Write to Write Register:     Press 6
+Print All Registers:         Press 7
+Quit:                        Press -1
+
+Enter a value: 6
+Data written!
+
+Set Read Register 1:         Press 0
+Set Read Register 2:         Press 1
+Set Write Register:          Press 2
+Set Write Data:              Press 3
+Get Read Register 1's Data:  Press 4
+Get Read Register 2's Data:  Press 5
+Write to Write Register:     Press 6
+Print All Registers:         Press 7
+Quit:                        Press -1
+
+Enter a value: 3
+
+Enter data value:0
+
+Write data set!
+
+Set Read Register 1:         Press 0
+Set Read Register 2:         Press 1
+Set Write Register:          Press 2
+Set Write Data:              Press 3
+Get Read Register 1's Data:  Press 4
+Get Read Register 2's Data:  Press 5
+Write to Write Register:     Press 6
+Print All Registers:         Press 7
+Quit:                        Press -1
+
+Enter a value: 2
+
+Which register? (0-31)7
+
+Register set!
+
+Set Read Register 1:         Press 0
+Set Read Register 2:         Press 1
+Set Write Register:          Press 2
+Set Write Data:              Press 3
+Get Read Register 1's Data:  Press 4
+Get Read Register 2's Data:  Press 5
+Write to Write Register:     Press 6
+Print All Registers:         Press 7
+Quit:                        Press -1
+
+Enter a value: 6
+Data written!
+
+Set Read Register 1:         Press 0
+Set Read Register 2:         Press 1
+Set Write Register:          Press 2
+Set Write Data:              Press 3
+Get Read Register 1's Data:  Press 4
+Get Read Register 2's Data:  Press 5
+Write to Write Register:     Press 6
+Print All Registers:         Press 7
+Quit:                        Press -1
+
+Enter a value: 2
+
+Which register? (0-31)8
+
+Register set!
+
+Set Read Register 1:         Press 0
+Set Read Register 2:         Press 1
+Set Write Register:          Press 2
+Set Write Data:              Press 3
+Get Read Register 1's Data:  Press 4
+Get Read Register 2's Data:  Press 5
+Write to Write Register:     Press 6
+Print All Registers:         Press 7
+Quit:                        Press -1
+
+Enter a value: 6
+Data written!
+
+Set Read Register 1:         Press 0
+Set Read Register 2:         Press 1
+Set Write Register:          Press 2
+Set Write Data:              Press 3
+Get Read Register 1's Data:  Press 4
+Get Read Register 2's Data:  Press 5
+Write to Write Register:     Press 6
+Print All Registers:         Press 7
+Quit:                        Press -1
+
+Enter a value: 2
+
+Which register? (0-31)9
+
+Register set!
+
+Set Read Register 1:         Press 0
+Set Read Register 2:         Press 1
+Set Write Register:          Press 2
+Set Write Data:              Press 3
+Get Read Register 1's Data:  Press 4
+Get Read Register 2's Data:  Press 5
+Write to Write Register:     Press 6
+Print All Registers:         Press 7
+Quit:                        Press -1
+
+Enter a value: 6
+Data written!
+
+Set Read Register 1:         Press 0
+Set Read Register 2:         Press 1
+Set Write Register:          Press 2
+Set Write Data:              Press 3
+Get Read Register 1's Data:  Press 4
+Get Read Register 2's Data:  Press 5
+Write to Write Register:     Press 6
+Print All Registers:         Press 7
+Quit:                        Press -1
+
+Enter a value: 2
+
+Which register? (0-31)10
+
+Register set!
+
+Set Read Register 1:         Press 0
+Set Read Register 2:         Press 1
+Set Write Register:          Press 2
+Set Write Data:              Press 3
+Get Read Register 1's Data:  Press 4
+Get Read Register 2's Data:  Press 5
+Write to Write Register:     Press 6
+Print All Registers:         Press 7
+Quit:                        Press -1
+
+Enter a value: 6
+Data written!
+
+Set Read Register 1:         Press 0
+Set Read Register 2:         Press 1
+Set Write Register:          Press 2
+Set Write Data:              Press 3
+Get Read Register 1's Data:  Press 4
+Get Read Register 2's Data:  Press 5
+Write to Write Register:     Press 6
+Print All Registers:         Press 7
+Quit:                        Press -1
+
+Enter a value: 2
+
+Which register? (0-31)11
+
+Register set!
+
+Set Read Register 1:         Press 0
+Set Read Register 2:         Press 1
+Set Write Register:          Press 2
+Set Write Data:              Press 3
+Get Read Register 1's Data:  Press 4
+Get Read Register 2's Data:  Press 5
+Write to Write Register:     Press 6
+Print All Registers:         Press 7
+Quit:                        Press -1
+
+Enter a value: 6
+Data written!
+
+Set Read Register 1:         Press 0
+Set Read Register 2:         Press 1
+Set Write Register:          Press 2
+Set Write Data:              Press 3
+Get Read Register 1's Data:  Press 4
+Get Read Register 2's Data:  Press 5
+Write to Write Register:     Press 6
+Print All Registers:         Press 7
+Quit:                        Press -1
+
+Enter a value: 2
+
+Which register? (0-31)12
+
+Register set!
+
+Set Read Register 1:         Press 0
+Set Read Register 2:         Press 1
+Set Write Register:          Press 2
+Set Write Data:              Press 3
+Get Read Register 1's Data:  Press 4
+Get Read Register 2's Data:  Press 5
+Write to Write Register:     Press 6
+Print All Registers:         Press 7
+Quit:                        Press -1
+
+Enter a value: 6
+Data written!
+
+Set Read Register 1:         Press 0
+Set Read Register 2:         Press 1
+Set Write Register:          Press 2
+Set Write Data:              Press 3
+Get Read Register 1's Data:  Press 4
+Get Read Register 2's Data:  Press 5
+Write to Write Register:     Press 6
+Print All Registers:         Press 7
+Quit:                        Press -1
+
+Enter a value: 2
+
+Which register? (0-31)13
+
+Register set!
+
+Set Read Register 1:         Press 0
+Set Read Register 2:         Press 1
+Set Write Register:          Press 2
+Set Write Data:              Press 3
+Get Read Register 1's Data:  Press 4
+Get Read Register 2's Data:  Press 5
+Write to Write Register:     Press 6
+Print All Registers:         Press 7
+Quit:                        Press -1
+
+Enter a value: 6
+Data written!
+
+Set Read Register 1:         Press 0
+Set Read Register 2:         Press 1
+Set Write Register:          Press 2
+Set Write Data:              Press 3
+Get Read Register 1's Data:  Press 4
+Get Read Register 2's Data:  Press 5
+Write to Write Register:     Press 6
+Print All Registers:         Press 7
+Quit:                        Press -1
+
+Enter a value: 2
+
+Which register? (0-31)14
+
+Register set!
+
+Set Read Register 1:         Press 0
+Set Read Register 2:         Press 1
+Set Write Register:          Press 2
+Set Write Data:              Press 3
+Get Read Register 1's Data:  Press 4
+Get Read Register 2's Data:  Press 5
+Write to Write Register:     Press 6
+Print All Registers:         Press 7
+Quit:                        Press -1
+
+Enter a value: 6
+Data written!
+
+Set Read Register 1:         Press 0
+Set Read Register 2:         Press 1
+Set Write Register:          Press 2
+Set Write Data:              Press 3
+Get Read Register 1's Data:  Press 4
+Get Read Register 2's Data:  Press 5
+Write to Write Register:     Press 6
+Print All Registers:         Press 7
+Quit:                        Press -1
+
+Enter a value: 3
+
+Enter data value:289
+
+Write data set!
+
+Set Read Register 1:         Press 0
+Set Read Register 2:         Press 1
+Set Write Register:          Press 2
+Set Write Data:              Press 3
+Get Read Register 1's Data:  Press 4
+Get Read Register 2's Data:  Press 5
+Write to Write Register:     Press 6
+Print All Registers:         Press 7
+Quit:                        Press -1
+
+Enter a value: 2
+
+Which register? (0-31)15
+
+Register set!
+
+Set Read Register 1:         Press 0
+Set Read Register 2:         Press 1
+Set Write Register:          Press 2
+Set Write Data:              Press 3
+Get Read Register 1's Data:  Press 4
+Get Read Register 2's Data:  Press 5
+Write to Write Register:     Press 6
+Print All Registers:         Press 7
+Quit:                        Press -1
+
+Enter a value: 6
+Data written!
+
+Set Read Register 1:         Press 0
+Set Read Register 2:         Press 1
+Set Write Register:          Press 2
+Set Write Data:              Press 3
+Get Read Register 1's Data:  Press 4
+Get Read Register 2's Data:  Press 5
+Write to Write Register:     Press 6
+Print All Registers:         Press 7
+Quit:                        Press -1
+
+Enter a value: 2
+
+Which register? (0-31)16
+
+Register set!
+
+Set Read Register 1:         Press 0
+Set Read Register 2:         Press 1
+Set Write Register:          Press 2
+Set Write Data:              Press 3
+Get Read Register 1's Data:  Press 4
+Get Read Register 2's Data:  Press 5
+Write to Write Register:     Press 6
+Print All Registers:         Press 7
+Quit:                        Press -1
+
+Enter a value: 6
+Data written!
+
+Set Read Register 1:         Press 0
+Set Read Register 2:         Press 1
+Set Write Register:          Press 2
+Set Write Data:              Press 3
+Get Read Register 1's Data:  Press 4
+Get Read Register 2's Data:  Press 5
+Write to Write Register:     Press 6
+Print All Registers:         Press 7
+Quit:                        Press -1
+
+Enter a value: 3
+
+Enter data value:0
+
+Write data set!
+
+Set Read Register 1:         Press 0
+Set Read Register 2:         Press 1
+Set Write Register:          Press 2
+Set Write Data:              Press 3
+Get Read Register 1's Data:  Press 4
+Get Read Register 2's Data:  Press 5
+Write to Write Register:     Press 6
+Print All Registers:         Press 7
+Quit:                        Press -1
+
+Enter a value: 2
+
+Which register? (0-31)17
+
+Register set!
+
+Set Read Register 1:         Press 0
+Set Read Register 2:         Press 1
+Set Write Register:          Press 2
+Set Write Data:              Press 3
+Get Read Register 1's Data:  Press 4
+Get Read Register 2's Data:  Press 5
+Write to Write Register:     Press 6
+Print All Registers:         Press 7
+Quit:                        Press -1
+
+Enter a value: 6
+Data written!
+
+Set Read Register 1:         Press 0
+Set Read Register 2:         Press 1
+Set Write Register:          Press 2
+Set Write Data:              Press 3
+Get Read Register 1's Data:  Press 4
+Get Read Register 2's Data:  Press 5
+Write to Write Register:     Press 6
+Print All Registers:         Press 7
+Quit:                        Press -1
+
+Enter a value: 2
+
+Which register? (0-31)18
+
+Register set!
+
+Set Read Register 1:         Press 0
+Set Read Register 2:         Press 1
+Set Write Register:          Press 2
+Set Write Data:              Press 3
+Get Read Register 1's Data:  Press 4
+Get Read Register 2's Data:  Press 5
+Write to Write Register:     Press 6
+Print All Registers:         Press 7
+Quit:                        Press -1
+
+Enter a value: 6
+Data written!
+
+Set Read Register 1:         Press 0
+Set Read Register 2:         Press 1
+Set Write Register:          Press 2
+Set Write Data:              Press 3
+Get Read Register 1's Data:  Press 4
+Get Read Register 2's Data:  Press 5
+Write to Write Register:     Press 6
+Print All Registers:         Press 7
+Quit:                        Press -1
+
+Enter a value: 2
+
+Which register? (0-31)19
+
+Register set!
+
+Set Read Register 1:         Press 0
+Set Read Register 2:         Press 1
+Set Write Register:          Press 2
+Set Write Data:              Press 3
+Get Read Register 1's Data:  Press 4
+Get Read Register 2's Data:  Press 5
+Write to Write Register:     Press 6
+Print All Registers:         Press 7
+Quit:                        Press -1
+
+Enter a value: 6
+Data written!
+
+Set Read Register 1:         Press 0
+Set Read Register 2:         Press 1
+Set Write Register:          Press 2
+Set Write Data:              Press 3
+Get Read Register 1's Data:  Press 4
+Get Read Register 2's Data:  Press 5
+Write to Write Register:     Press 6
+Print All Registers:         Press 7
+Quit:                        Press -1
+
+Enter a value: 2
+
+Which register? (0-31)20
+
+Register set!
+
+Set Read Register 1:         Press 0
+Set Read Register 2:         Press 1
+Set Write Register:          Press 2
+Set Write Data:              Press 3
+Get Read Register 1's Data:  Press 4
+Get Read Register 2's Data:  Press 5
+Write to Write Register:     Press 6
+Print All Registers:         Press 7
+Quit:                        Press -1
+
+Enter a value: 6
+Data written!
+
+Set Read Register 1:         Press 0
+Set Read Register 2:         Press 1
+Set Write Register:          Press 2
+Set Write Data:              Press 3
+Get Read Register 1's Data:  Press 4
+Get Read Register 2's Data:  Press 5
+Write to Write Register:     Press 6
+Print All Registers:         Press 7
+Quit:                        Press -1
+
+Enter a value: 2
+
+Which register? (0-31)21
+
+Register set!
+
+Set Read Register 1:         Press 0
+Set Read Register 2:         Press 1
+Set Write Register:          Press 2
+Set Write Data:              Press 3
+Get Read Register 1's Data:  Press 4
+Get Read Register 2's Data:  Press 5
+Write to Write Register:     Press 6
+Print All Registers:         Press 7
+Quit:                        Press -1
+
+Enter a value: 6
+Data written!
+
+Set Read Register 1:         Press 0
+Set Read Register 2:         Press 1
+Set Write Register:          Press 2
+Set Write Data:              Press 3
+Get Read Register 1's Data:  Press 4
+Get Read Register 2's Data:  Press 5
+Write to Write Register:     Press 6
+Print All Registers:         Press 7
+Quit:                        Press -1
+
+Enter a value: 3
+
+Enter data value:22222
+
+Write data set!
+
+Set Read Register 1:         Press 0
+Set Read Register 2:         Press 1
+Set Write Register:          Press 2
+Set Write Data:              Press 3
+Get Read Register 1's Data:  Press 4
+Get Read Register 2's Data:  Press 5
+Write to Write Register:     Press 6
+Print All Registers:         Press 7
+Quit:                        Press -1
+
+Enter a value: 2
+
+Which register? (0-31)22
+
+Register set!
+
+Set Read Register 1:         Press 0
+Set Read Register 2:         Press 1
+Set Write Register:          Press 2
+Set Write Data:              Press 3
+Get Read Register 1's Data:  Press 4
+Get Read Register 2's Data:  Press 5
+Write to Write Register:     Press 6
+Print All Registers:         Press 7
+Quit:                        Press -1
+
+Enter a value: 6
+Data written!
+
+Set Read Register 1:         Press 0
+Set Read Register 2:         Press 1
+Set Write Register:          Press 2
+Set Write Data:              Press 3
+Get Read Register 1's Data:  Press 4
+Get Read Register 2's Data:  Press 5
+Write to Write Register:     Press 6
+Print All Registers:         Press 7
+Quit:                        Press -1
+
+Enter a value: 3
+
+Enter data value:0
+
+Write data set!
+
+Set Read Register 1:         Press 0
+Set Read Register 2:         Press 1
+Set Write Register:          Press 2
+Set Write Data:              Press 3
+Get Read Register 1's Data:  Press 4
+Get Read Register 2's Data:  Press 5
+Write to Write Register:     Press 6
+Print All Registers:         Press 7
+Quit:                        Press -1
+
+Enter a value: 2
+
+Which register? (0-31)23
+
+Register set!
+
+Set Read Register 1:         Press 0
+Set Read Register 2:         Press 1
+Set Write Register:          Press 2
+Set Write Data:              Press 3
+Get Read Register 1's Data:  Press 4
+Get Read Register 2's Data:  Press 5
+Write to Write Register:     Press 6
+Print All Registers:         Press 7
+Quit:                        Press -1
+
+Enter a value: 6
+Data written!
+
+Set Read Register 1:         Press 0
+Set Read Register 2:         Press 1
+Set Write Register:          Press 2
+Set Write Data:              Press 3
+Get Read Register 1's Data:  Press 4
+Get Read Register 2's Data:  Press 5
+Write to Write Register:     Press 6
+Print All Registers:         Press 7
+Quit:                        Press -1
+
+Enter a value: 2
+
+Which register? (0-31)24
+
+Register set!
+
+Set Read Register 1:         Press 0
+Set Read Register 2:         Press 1
+Set Write Register:          Press 2
+Set Write Data:              Press 3
+Get Read Register 1's Data:  Press 4
+Get Read Register 2's Data:  Press 5
+Write to Write Register:     Press 6
+Print All Registers:         Press 7
+Quit:                        Press -1
+
+Enter a value: 6
+Data written!
+
+Set Read Register 1:         Press 0
+Set Read Register 2:         Press 1
+Set Write Register:          Press 2
+Set Write Data:              Press 3
+Get Read Register 1's Data:  Press 4
+Get Read Register 2's Data:  Press 5
+Write to Write Register:     Press 6
+Print All Registers:         Press 7
+Quit:                        Press -1
+
+Enter a value: 2
+
+Which register? (0-31)25
+
+Register set!
+
+Set Read Register 1:         Press 0
+Set Read Register 2:         Press 1
+Set Write Register:          Press 2
+Set Write Data:              Press 3
+Get Read Register 1's Data:  Press 4
+Get Read Register 2's Data:  Press 5
+Write to Write Register:     Press 6
+Print All Registers:         Press 7
+Quit:                        Press -1
+
+Enter a value: 6
+Data written!
+
+Set Read Register 1:         Press 0
+Set Read Register 2:         Press 1
+Set Write Register:          Press 2
+Set Write Data:              Press 3
+Get Read Register 1's Data:  Press 4
+Get Read Register 2's Data:  Press 5
+Write to Write Register:     Press 6
+Print All Registers:         Press 7
+Quit:                        Press -1
+
+Enter a value: 2
+
+Which register? (0-31)26
+
+Register set!
+
+Set Read Register 1:         Press 0
+Set Read Register 2:         Press 1
+Set Write Register:          Press 2
+Set Write Data:              Press 3
+Get Read Register 1's Data:  Press 4
+Get Read Register 2's Data:  Press 5
+Write to Write Register:     Press 6
+Print All Registers:         Press 7
+Quit:                        Press -1
+
+Enter a value: 6
+Data written!
+
+Set Read Register 1:         Press 0
+Set Read Register 2:         Press 1
+Set Write Register:          Press 2
+Set Write Data:              Press 3
+Get Read Register 1's Data:  Press 4
+Get Read Register 2's Data:  Press 5
+Write to Write Register:     Press 6
+Print All Registers:         Press 7
+Quit:                        Press -1
+
+Enter a value: 2
+
+Which register? (0-31)27
+
+Register set!
+
+Set Read Register 1:         Press 0
+Set Read Register 2:         Press 1
+Set Write Register:          Press 2
+Set Write Data:              Press 3
+Get Read Register 1's Data:  Press 4
+Get Read Register 2's Data:  Press 5
+Write to Write Register:     Press 6
+Print All Registers:         Press 7
+Quit:                        Press -1
+
+Enter a value: 6
+Data written!
+
+Set Read Register 1:         Press 0
+Set Read Register 2:         Press 1
+Set Write Register:          Press 2
+Set Write Data:              Press 3
+Get Read Register 1's Data:  Press 4
+Get Read Register 2's Data:  Press 5
+Write to Write Register:     Press 6
+Print All Registers:         Press 7
+Quit:                        Press -1
+
+Enter a value: 2
+
+Which register? (0-31)28
+
+Register set!
+
+Set Read Register 1:         Press 0
+Set Read Register 2:         Press 1
+Set Write Register:          Press 2
+Set Write Data:              Press 3
+Get Read Register 1's Data:  Press 4
+Get Read Register 2's Data:  Press 5
+Write to Write Register:     Press 6
+Print All Registers:         Press 7
+Quit:                        Press -1
+
+Enter a value: 6
+Data written!
+
+Set Read Register 1:         Press 0
+Set Read Register 2:         Press 1
+Set Write Register:          Press 2
+Set Write Data:              Press 3
+Get Read Register 1's Data:  Press 4
+Get Read Register 2's Data:  Press 5
+Write to Write Register:     Press 6
+Print All Registers:         Press 7
+Quit:                        Press -1
+
+Enter a value: 2
+
+Which register? (0-31)29
+
+Register set!
+
+Set Read Register 1:         Press 0
+Set Read Register 2:         Press 1
+Set Write Register:          Press 2
+Set Write Data:              Press 3
+Get Read Register 1's Data:  Press 4
+Get Read Register 2's Data:  Press 5
+Write to Write Register:     Press 6
+Print All Registers:         Press 7
+Quit:                        Press -1
+
+Enter a value: 6
+Data written!
+
+Set Read Register 1:         Press 0
+Set Read Register 2:         Press 1
+Set Write Register:          Press 2
+Set Write Data:              Press 3
+Get Read Register 1's Data:  Press 4
+Get Read Register 2's Data:  Press 5
+Write to Write Register:     Press 6
+Print All Registers:         Press 7
+Quit:                        Press -1
+
+Enter a value: 2
+
+Which register? (0-31)30
+
+Register set!
+
+Set Read Register 1:         Press 0
+Set Read Register 2:         Press 1
+Set Write Register:          Press 2
+Set Write Data:              Press 3
+Get Read Register 1's Data:  Press 4
+Get Read Register 2's Data:  Press 5
+Write to Write Register:     Press 6
+Print All Registers:         Press 7
+Quit:                        Press -1
+
+Enter a value: 6
+Data written!
+
+Set Read Register 1:         Press 0
+Set Read Register 2:         Press 1
+Set Write Register:          Press 2
+Set Write Data:              Press 3
+Get Read Register 1's Data:  Press 4
+Get Read Register 2's Data:  Press 5
+Write to Write Register:     Press 6
+Print All Registers:         Press 7
+Quit:                        Press -1
+
+Enter a value: 3
+
+Enter data value:18446744073709551615
+
+Write data set!
+
+Set Read Register 1:         Press 0
+Set Read Register 2:         Press 1
+Set Write Register:          Press 2
+Set Write Data:              Press 3
+Get Read Register 1's Data:  Press 4
+Get Read Register 2's Data:  Press 5
+Write to Write Register:     Press 6
+Print All Registers:         Press 7
+Quit:                        Press -1
+
+Enter a value: 2
+
+Which register? (0-31)31
+
+Register set!
+
+Set Read Register 1:         Press 0
+Set Read Register 2:         Press 1
+Set Write Register:          Press 2
+Set Write Data:              Press 3
+Get Read Register 1's Data:  Press 4
+Get Read Register 2's Data:  Press 5
+Write to Write Register:     Press 6
+Print All Registers:         Press 7
+Quit:                        Press -1
+
+Enter a value: 6
+Data written!
+
+Set Read Register 1:         Press 0
+Set Read Register 2:         Press 1
+Set Write Register:          Press 2
+Set Write Data:              Press 3
+Get Read Register 1's Data:  Press 4
+Get Read Register 2's Data:  Press 5
+Write to Write Register:     Press 6
+Print All Registers:         Press 7
+Quit:                        Press -1
+
+Enter a value: 0
+
+Which register? (0-31)15
+
+Register set!
+
+Set Read Register 1:         Press 0
+Set Read Register 2:         Press 1
+Set Write Register:          Press 2
+Set Write Data:              Press 3
+Get Read Register 1's Data:  Press 4
+Get Read Register 2's Data:  Press 5
+Write to Write Register:     Press 6
+Print All Registers:         Press 7
+Quit:                        Press -1
+
+Enter a value: 4
+
+The value is 289
+
+Set Read Register 1:         Press 0
+Set Read Register 2:         Press 1
+Set Write Register:          Press 2
+Set Write Data:              Press 3
+Get Read Register 1's Data:  Press 4
+Get Read Register 2's Data:  Press 5
+Write to Write Register:     Press 6
+Print All Registers:         Press 7
+Quit:                        Press -1
+
+Enter a value: 1
+
+Which register? (0-31)22
+
+Register set!
+
+Set Read Register 1:         Press 0
+Set Read Register 2:         Press 1
+Set Write Register:          Press 2
+Set Write Data:              Press 3
+Get Read Register 1's Data:  Press 4
+Get Read Register 2's Data:  Press 5
+Write to Write Register:     Press 6
+Print All Registers:         Press 7
+Quit:                        Press -1
+
+Enter a value: 5
+
+The value is 22222
+
+Set Read Register 1:         Press 0
+Set Read Register 2:         Press 1
+Set Write Register:          Press 2
+Set Write Data:              Press 3
+Get Read Register 1's Data:  Press 4
+Get Read Register 2's Data:  Press 5
+Write to Write Register:     Press 6
+Print All Registers:         Press 7
+Quit:                        Press -1
+
+Enter a value: 3
+
+Enter data value:42
+
+Write data set!
+
+Set Read Register 1:         Press 0
+Set Read Register 2:         Press 1
+Set Write Register:          Press 2
+Set Write Data:              Press 3
+Get Read Register 1's Data:  Press 4
+Get Read Register 2's Data:  Press 5
+Write to Write Register:     Press 6
+Print All Registers:         Press 7
+Quit:                        Press -1
+
+Enter a value: 2
+
+Which register? (0-31)31
+
+Register set!
+
+Set Read Register 1:         Press 0
+Set Read Register 2:         Press 1
+Set Write Register:          Press 2
+Set Write Data:              Press 3
+Get Read Register 1's Data:  Press 4
+Get Read Register 2's Data:  Press 5
+Write to Write Register:     Press 6
+Print All Registers:         Press 7
+Quit:                        Press -1
+
+Enter a value: 6
+Data written!
+
+Set Read Register 1:         Press 0
+Set Read Register 2:         Press 1
+Set Write Register:          Press 2
+Set Write Data:              Press 3
+Get Read Register 1's Data:  Press 4
+Get Read Register 2's Data:  Press 5
+Write to Write Register:     Press 6
+Print All Registers:         Press 7
+Quit:                        Press -1
+
+Enter a value: 3
+
+Enter data value:16
+
+Write data set!
+
+Set Read Register 1:         Press 0
+Set Read Register 2:         Press 1
+Set Write Register:          Press 2
+Set Write Data:              Press 3
+Get Read Register 1's Data:  Press 4
+Get Read Register 2's Data:  Press 5
+Write to Write Register:     Press 6
+Print All Registers:         Press 7
+Quit:                        Press -1
+
+Enter a value: 2
+
+Which register? (0-31)20
+
+Register set!
+
+Set Read Register 1:         Press 0
+Set Read Register 2:         Press 1
+Set Write Register:          Press 2
+Set Write Data:              Press 3
+Get Read Register 1's Data:  Press 4
+Get Read Register 2's Data:  Press 5
+Write to Write Register:     Press 6
+Print All Registers:         Press 7
+Quit:                        Press -1
+
+Enter a value: 16
+
+Set Read Register 1:         Press 0
+Set Read Register 2:         Press 1
+Set Write Register:          Press 2
+Set Write Data:              Press 3
+Get Read Register 1's Data:  Press 4
+Get Read Register 2's Data:  Press 5
+Write to Write Register:     Press 6
+Print All Registers:         Press 7
+Quit:                        Press -1
+
+Enter a value: 2
+
+Which register? (0-31)20
+
+Register set!
+
+Set Read Register 1:         Press 0
+Set Read Register 2:         Press 1
+Set Write Register:          Press 2
+Set Write Data:              Press 3
+Get Read Register 1's Data:  Press 4
+Get Read Register 2's Data:  Press 5
+Write to Write Register:     Press 6
+Print All Registers:         Press 7
+Quit:                        Press -1
+
+Enter a value: 6
+Data written!
+
+Set Read Register 1:         Press 0
+Set Read Register 2:         Press 1
+Set Write Register:          Press 2
+Set Write Data:              Press 3
+Get Read Register 1's Data:  Press 4
+Get Read Register 2's Data:  Press 5
+Write to Write Register:     Press 6
+Print All Registers:         Press 7
+Quit:                        Press -1
+
+Enter a value: 7
+All register values written to registerDump.txt.
+
+Set Read Register 1:         Press 0
+Set Read Register 2:         Press 1
+Set Write Register:          Press 2
+Set Write Data:              Press 3
+Get Read Register 1's Data:  Press 4
+Get Read Register 2's Data:  Press 5
+Write to Write Register:     Press 6
+Print All Registers:         Press 7
+Quit:                        Press -1
+
+Enter a value: 2
+
+Which register? (0-31)30
+
+Register set!
+
+Set Read Register 1:         Press 0
+Set Read Register 2:         Press 1
+Set Write Register:          Press 2
+Set Write Data:              Press 3
+Get Read Register 1's Data:  Press 4
+Get Read Register 2's Data:  Press 5
+Write to Write Register:     Press 6
+Print All Registers:         Press 7
+Quit:                        Press -1
+
+Enter a value: 3
+
+Enter data value:21
+
+Write data set!
+
+Set Read Register 1:         Press 0
+Set Read Register 2:         Press 1
+Set Write Register:          Press 2
+Set Write Data:              Press 3
+Get Read Register 1's Data:  Press 4
+Get Read Register 2's Data:  Press 5
+Write to Write Register:     Press 6
+Print All Registers:         Press 7
+Quit:                        Press -1
+
+Enter a value: 2
+
+Which register? (0-31)23
+
+Register set!
+
+Set Read Register 1:         Press 0
+Set Read Register 2:         Press 1
+Set Write Register:          Press 2
+Set Write Data:              Press 3
+Get Read Register 1's Data:  Press 4
+Get Read Register 2's Data:  Press 5
+Write to Write Register:     Press 6
+Print All Registers:         Press 7
+Quit:                        Press -1
+
+Enter a value: 6
+Data written!
+
+Set Read Register 1:         Press 0
+Set Read Register 2:         Press 1
+Set Write Register:          Press 2
+Set Write Data:              Press 3
+Get Read Register 1's Data:  Press 4
+Get Read Register 2's Data:  Press 5
+Write to Write Register:     Press 6
+Print All Registers:         Press 7
+Quit:                        Press -1
+
+Enter a value: 7
+All register values written to registerDump.txt.
+
+Set Read Register 1:         Press 0
+Set Read Register 2:         Press 1
+Set Write Register:          Press 2
+Set Write Data:              Press 3
+Get Read Register 1's Data:  Press 4
+Get Read Register 2's Data:  Press 5
+Write to Write Register:     Press 6
+Print All Registers:         Press 7
+Quit:                        Press -1
+
+Enter a value: -1

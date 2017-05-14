@@ -1,0 +1,132 @@
+Enter an 8-digit hex value: 
+Instruction: 0x00004020, 16416
+op:     0x00          0           
+rs:     0x00          0           
+rt:     0x00          0           
+rd:     0x08          8           
+sh:     0x00          0           
+ft:     0x20          32          
+immed:  0x4020        16416       
+target: 0x00004020    16416       
+funct:  0x20          32          
+
+Enter an 8-digit hex value: 
+Instruction: 0x8d090000, -1928790016
+op:     0x23          35          
+rs:     0x08          8           
+rt:     0x09          9           
+rd:     0x00          0           
+sh:     0x00          0           
+ft:     0x20          32          
+immed:  0x0000        0           
+target: 0x01090000    17367040    
+funct:  0x00          0           
+
+Enter an 8-digit hex value: 
+Instruction: 0x8d0d0002, -1928527870
+op:     0x23          35          
+rs:     0x08          8           
+rt:     0x0d          13          
+rd:     0x00          0           
+sh:     0x00          0           
+ft:     0x20          32          
+immed:  0x0002        2           
+target: 0x010d0002    17629186    
+funct:  0x02          2           
+
+Enter an 8-digit hex value: 
+Instruction: 0x01094020, 17383456
+op:     0x00          0           
+rs:     0x08          8           
+rt:     0x09          9           
+rd:     0x08          8           
+sh:     0x00          0           
+ft:     0x20          32          
+immed:  0x4020        16416       
+target: 0x01094020    17383456    
+funct:  0x20          32          
+
+Enter an 8-digit hex value: 
+Instruction: 0x8d0a0000, -1928724480
+op:     0x23          35          
+rs:     0x08          8           
+rt:     0x0a          10          
+rd:     0x00          0           
+sh:     0x00          0           
+ft:     0x20          32          
+immed:  0x0000        0           
+target: 0x010a0000    17432576    
+funct:  0x00          0           
+
+Enter an 8-digit hex value: 
+Instruction: 0x114d0004, 290258948
+op:     0x04          4           
+rs:     0x0a          10          
+rt:     0x0d          13          
+rd:     0x00          0           
+sh:     0x00          0           
+ft:     0x20          32          
+immed:  0x0004        4           
+target: 0x014d0004    21823492    
+funct:  0x04          4           
+
+Enter an 8-digit hex value: 
+Instruction: 0x8d0b0004, -1928658940
+op:     0x23          35          
+rs:     0x08          8           
+rt:     0x0b          11          
+rd:     0x00          0           
+sh:     0x00          0           
+ft:     0x20          32          
+immed:  0x0004        4           
+target: 0x010b0004    17498116    
+funct:  0x04          4           
+
+Enter an 8-digit hex value: 
+Instruction: 0x014b6020, 21717024
+op:     0x00          0           
+rs:     0x0a          10          
+rt:     0x0b          11          
+rd:     0x0c          12          
+sh:     0x00          0           
+ft:     0x20          32          
+immed:  0x6020        24608       
+target: 0x014b6020    21717024    
+funct:  0x20          32          
+
+Enter an 8-digit hex value: 
+Instruction: 0xad0c0008, -1391722488
+op:     0x2b          43          
+rs:     0x08          8           
+rt:     0x0c          12          
+rd:     0x00          0           
+sh:     0x00          0           
+ft:     0x20          32          
+immed:  0x0008        8           
+target: 0x010c0008    17563656    
+funct:  0x08          8           
+
+Enter an 8-digit hex value: 
+Instruction: 0x08000003, 134217731
+op:     0x02          2           
+rs:     0x00          0           
+rt:     0x00          0           
+rd:     0x00          0           
+sh:     0x00          0           
+ft:     0x20          32          
+immed:  0x0003        3           
+target: 0x00000003    3           
+funct:  0x03          3           
+
+Enter an 8-digit hex value: 
+Instruction: 0x00000000, 0
+op:     0x00          0           
+rs:     0x00          0           
+rt:     0x00          0           
+rd:     0x00          0           
+sh:     0x00          0           
+ft:     0x20          32          
+immed:  0x0000        0           
+target: 0x00000000    0           
+funct:  0x00          0           
+

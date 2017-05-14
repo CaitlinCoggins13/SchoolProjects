@@ -1,0 +1,121 @@
+<answ type = "binary" >
+    <question value = "Is your city in the western hemisphere?"/>
+    <answ type = "binary">
+        <question value = "Is your city in the northern hemisphere?"/>
+        <answ type = "binary" >
+            <question value = "Is your city in the United States?"/>
+            <answ type = "binary">
+                <question value = "Is the state that your city is in one of the largest states?"/>
+                <answ type = "binary">
+                    <question value = "Is your city in a state on the west coast?"/>
+                    <answ type = "city">
+                        <city value = "Los Angeles"/>
+                    </answ>
+                    <answ type = "city">
+                        <city value = "Austin"/>
+                    </answ>
+                </answ>
+                <answ type = "binary">
+                    <question value = "Is your city known as the 'Big Apple'?"/>
+                    <answ type = "city">
+                        <city value = "New York City"/>
+                    </answ>
+                    <answ type = "city">
+                        <city value = "Chicago"/>
+                    </answ>
+                </answ>
+            </answ>
+            <answ type = "binary">
+                <question value = "Is your city in Canada?"/>
+                <answ type = "binary">
+                    <question value = "Is your city the largest city in Canada?"/>
+                    <answ type = "city">
+                        <city value = "Toronto"/>
+                    </answ>
+                    <answ type = "city">
+                        <city value = "Montréal"/>
+                    </answ>
+                </answ>
+                <answ type = "city">
+                    <city value = "Mexico City"/>
+                </answ>
+            </answ>
+        </answ>
+        <answ type = "binary">
+            <question value = "Is your city the capital of its country?"/>
+            <answ type = "binary">
+                <question value = "Is your city the capital of Argentina?"/>
+                <answ type = "city">
+                    <city value = "Buenos Aires"/>
+                </answ>
+                <answ type = "city">
+                    <city value = "Montevideo"/>
+                </answ>
+            </answ>
+            <answ type = "city">
+                <city value = "Rio de Janeiro"/>
+            </answ>
+        </answ>
+    </answ>
+    <answ type = "binary">
+        <question value = "Is your city in Europe?"/>
+        <answ type = "binary">
+            <question value = "Is your city in a place where tea and crumpets are often served?"/>
+            <answ type = "city">
+                <city value = "London"/>
+            </answ>
+            <answ type = "city">
+                <city value = "Paris"/>
+            </answ>
+        </answ>
+        <answ type = "binary">
+            <question value = "Is your city in Africa?"/>
+            <answ type = "city">
+                <city type = "Cairo"/>
+            </answ>
+            <answ type = "binary">
+                <question value = "Is your city on an island?"/>
+                <answ type = "binary">
+                    <question value = "Has an atomic bomb ever been dropped on your city's island?"/>
+                    <answ type = "city">
+                        <city value = "Tokyo"/>
+                    </answ>
+                    <answ type = "city">
+                        <city value = "Jakarka"/>
+                    </answ>
+                </answ>
+                <answ type = "binary">
+                    <question value = "Is your city in China?"/>
+                    <answ type = "binary">
+                        <question value = "Were the Olympics recently held in your city?"/>
+                        <answ type = "city">
+                            <city value = "Beijing"/>
+                        </answ>
+                        <answ type = "city">
+                            <city value = "Shanghai"/>
+                        </answ>
+                    </answ>
+                    <answ type = "binary">
+                        <question value = "Is your city in the middle east?"/>
+                        <answ type = "city">
+                            <city value = "Baghdad"/>
+                        </answ>
+                        <answ type = "binary">
+                            <question value = "Is the president of your city's country currently Vladimir Putin?"/>
+                            <answ type = "city">
+                                <city value = "Moscow"/>
+                            </answ>
+                            <answ type = "city">
+                                <city value = "Bankok"/>
+                            </answ>
+                        </answ>
+                    </answ>
+                </answ>
+            </answ>
+        </answ>
+    </answ>
+</answ>
+
+
+
+

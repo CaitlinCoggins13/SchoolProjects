@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ begin()
+comment1.params=
+comment1.target=void\ grayScale()
+comment2.params=point
+comment2.target=void\ onMouseClick(objectdraw.Location)
+comment3.params=
+comment3.target=void\ mirror()
+comment4.params=
+comment4.target=void\ original()
+comment5.params=
+comment5.target=void\ blur()
+numComments=6

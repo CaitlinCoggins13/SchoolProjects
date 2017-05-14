@@ -1,0 +1,117 @@
+import java.util.Comparator;
+import java.util.Iterator;
+import java.util.PriorityQueue;
+
+
+/**
+ * Computes the minimum spanning tree for an undirected
+ * graph with weighted edges.  Assumes that the graph 
+ * is connected.
+ * 
+ * @author 
+ * @version 
+ *
+ */
+public class MinimumSpanningTree {
+	// The original graph
+	private final Graph graph;
+	
+	/**
+	 * Constructs the data structures needed to compute the minimum 
+	 * spanning tree.
+	 * @param g the graph that we will calculate the minimum spanning tree for
+	 */
+	public MinimumSpanningTree(Graph g) {
+		graph = g;
+	}
+
+	/**
+	 * Uses Prim's algorithm to compute a minimum spanning tree
+	 * @return A string listing the edges in the minimum spanning tree
+	 */
+	public String prim() {
+		Node[] nodes = graph.getNodes();
+		Node currentNode = nodes[0];
+		nodes[0].isMarked();
+		int markedNodes = 1;
+		Edge[] edges = graph.getEdges();
+		PriorityQueue<Edge> nodeWeight = new PriorityQueue<Edge>(10, new Comparator<Edge>(){
+        	public int compare(Edge r1, Edge r2)
+        	{
+        		if(r1.compareTo(r2)<0)
+        			return -1;
+        		else if(r1.compareTo(r2)>0)
+        			return 1;
+        		else
+        			return 0;
+        	}
+        });
+		
+		for(int i=0; i<edges.length; ++i)
+		{
+			nodeWeight.offer(edges[i]);
+		}
+		String mst = "";
+		while(markedNodes < nodes.length)
+		{
+			Iterator<Edge> j = currentNode.neighbors();
+			Edge currentEdge = null;
+			while(j.hasNext())
+			{
+				Edge e = j.next();
+				if(e.getNode1().equals(currentNode))
+				{
+					if(e.getNode2().isMarked()==true)
+					{
+						nodeWeight.remove(e);
+					}
+					else
+					{
+						if(currentEdge == null)
+						{
+							currentEdge = e;
+						}
+						else if(e.getWeight()<currentEdge.getWeight())
+						{
+							currentEdge = e;
+						}
+					}
+				}
+				else
+				{
+					if(e.getNode1().isMarked()==true)
+					{
+						nodeWeight.remove(e);
+					}
+					else
+					{
+						if(currentEdge == null)
+						{
+							currentEdge = e;
+						}
+						else if(e.getWeight()<currentEdge.getWeight())
+						{
+							currentEdge = e;
+						}
+					}
+				}
+				mst += e.toString() + "\n";
+				
+				if(e.getNode1().equals(currentNode))
+				{
+					e.getNode2().isMarked();
+				}
+				else{
+					e.getNode1().isMarked();
+				}
+				markedNodes++;
+				nodeWeight.remove(e);
+			}
+			
+		}
+		
+		
+		return mst;
+	}
+
+}

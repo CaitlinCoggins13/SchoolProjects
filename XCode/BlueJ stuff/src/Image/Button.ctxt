@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=left\ top\ label\ buttoncanvas
+comment0.target=Button(double,\ double,\ java.lang.String,\ objectdraw.DrawingCanvas)
+comment1.params=point
+comment1.target=boolean\ contains(objectdraw.Location)
+comment2.params=
+comment2.target=double\ getRight()
+numComments=3

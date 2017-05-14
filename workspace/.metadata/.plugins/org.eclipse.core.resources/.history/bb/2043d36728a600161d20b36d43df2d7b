@@ -1,0 +1,82 @@
+import java.util.Iterator;
+import java.util.LinkedList;
+
+/**
+ * A node in a graph.  It knows all the nodes that it has an edge to.
+ * Nodes can be marked to facilitate searching.
+ * Nodes can also be assigned a layer, useful for breadth first search.
+ * 
+ * @author Barbara Lerner
+ * @version Feburary 12, 2011
+ *
+ */
+public class Node {
+	// The node's label
+	private final int label;
+	
+	// A mark to denote that the node has been discovered or explored,
+	// depending on which search algorithm is being used.
+	private boolean marked = false;
+	
+	// The layer in which the node was found when doing a breadth-first search.
+	private int layer = -1;
+	
+	// The list of edges connecting to this node
+	private LinkedList<Edge> edges = new LinkedList<Edge>();
+	
+	/**
+	 * Creates a new node
+	 * @param label the label of the node
+	 */
+	public Node(int label) {
+		this.label = label;
+	}
+	
+	/**
+	 * Add n to this node's adjacency list.
+	 * @param e the edge to add.  e
+	 * 		should not be in the list already.  e should not be null.
+	 */
+	public void addEdge (Edge e) {
+		assert !edges.contains(e);
+		assert e != null;
+		
+		edges.add(e);
+	}
+
+	/**
+	 * Sets the mark for the node.
+	 * @param marked the value of the mark
+	 */
+	public void setMarked(boolean marked) {
+		this.marked = marked;
+		if (!marked) {
+			layer = -1;
+		}
+	}
+
+	/**
+	 * @return true if the node is marked
+	 */
+	public boolean isMarked() {
+		return marked;
+	}
+	
+	/**
+	 * @return an iterator over all the nodes this node has an edge to
+	 */
+	public Iterator<Edge> neighbors() {
+		return edges.iterator();
+	}
+
+	/**
+	 * @return a string representation of the node, identifying its label and layer if that is set.
+	 */
+	public String toString () {
+		String value = "" + label;
+		if (layer != -1) {
+			value = value + ": layer " + layer;
+		}
+		return value;
+	}
+}

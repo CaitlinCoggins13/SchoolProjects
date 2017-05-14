@@ -1,0 +1,14 @@
+# Caitlin Coggins
+import Stream, lz-link, lz-first, lz-rest, nats-from, take, streamFromSeed, powers-of-2 from my-gdrive("homework3.arr")
+
+check "streamFromSeed":
+  take(5, streamFromSeed(lam(val): val + 1 end, 0)) is [list: 0, 1, 2, 3, 4]
+  take(1, streamFromSeed(lam(val): num-sqr(val) end, 5)) is [list: 5]
+  take(3, streamFromSeed(lam(val): val + "a" end, "i")) is [list: "i", "ia", "iaa"]
+end
+
+check "powers-of-2":
+  take(5, powers-of-2()) is [list: 1, 2, 4, 8, 16]
+  take(0, powers-of-2()) is [list:]
+  take(1, powers-of-2()) is [list: 1]
+end

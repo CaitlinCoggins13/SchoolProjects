@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ begin()
+comment0.text=\n\ Creates\ display\ of\ all\ the\ panels,\ buttons,\ textfields\ \n
+comment1.params=point
+comment1.target=void\ onMouseClick(objectdraw.Location)
+comment1.text=creates\ Text\ object\ of\ the\ text\ from\ the\ textField\nevery\ new\ Text\ object\ is\ set\ to\ have\ the\ size\ and\ font\ \nput\ in\ by\ the\ user\n
+comment2.params=evt
+comment2.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment2.text=\ Method\ carries\ out\ specific\ actions\ in\ response\ to\ \n\ user\ interaction\ with\ the\ button\ and\ fontbox\n\ The\ last\ text\ object\ is\ removed\ when\ the\ button\ is\ pressed,\ \n\ and\ specific\ font\ is\ set\ to\ text\ object\ when\ font\ is\ chose\ from\ the\ font\ box\n
+comment3.params=evt
+comment3.target=void\ stateChanged(javax.swing.event.ChangeEvent)
+comment3.text=\ Method\ changes\ font\ size\ in\ response\ to\ the\ change\ listener\n\ added\ to\ the\ JSlider\n
+numComments=4

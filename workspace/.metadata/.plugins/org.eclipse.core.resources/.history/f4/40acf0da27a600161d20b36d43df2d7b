@@ -1,0 +1,32 @@
+
+/**
+ * Computes the minimum spanning tree for an undirected
+ * graph with weighted edges.  Assumes that the graph 
+ * is connected.
+ * 
+ * @author 
+ * @version 
+ *
+ */
+public class MinimumSpanningTree {
+	// The original graph
+	private final Graph graph;
+	
+	/**
+	 * Constructs the data structures needed to compute the minimum 
+	 * spanning tree.
+	 * @param g the graph that we will calculate the minimum spanning tree for
+	 */
+	public MinimumSpanningTree(Graph g) {
+		graph = g;
+	}
+
+	/**
+	 * Uses Prim's algorithm to compute a minimum spanning tree
+	 * @return A string listing the edges in the minimum spanning tree
+	 */
+	public String prim() {
+		return "";
+	}
+
+}

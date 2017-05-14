@@ -1,0 +1,211 @@
+import java.awt.BorderLayout;
+import java.awt.Container;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileReader;
+import java.io.IOException;
+
+import javax.swing.JButton;
+import javax.swing.JFileChooser;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JOptionPane;
+import javax.swing.JPanel;
+import javax.swing.JScrollPane;
+import javax.swing.JTextArea;
+import javax.swing.JTextField;
+
+/**
+ * Provides a GUI to read in files containing items and their costs.
+ * Prompts the user for an amount of money to spend.  Reports which
+ * items the user should buy and how much she will spend.  She can 
+ * buy at most 1 of any item.
+ * 
+ * A file containing requests should have the following format.  The first
+ * line should indicate how many items there are.  Each subsequent line 
+ * should be formatted as:
+ * 
+ * name,price
+ * 
+ * name can include any character except a comma.  price
+ * should be an integer.
+ * 
+ * @author Barbara Lerner
+ * @version April 3, 2011
+ * 
+ */
+public class Main {
+	// Size of the output text area
+	private static final int NUM_ROWS = 20;
+	private static final int NUM_COLS = 40;
+
+	// Output area
+	private static JTextArea outputArea = new JTextArea(NUM_ROWS, NUM_COLS);
+
+	private static Item[] items;
+
+	/**
+	 * Create the GUI displayed to the user
+	 */
+	private static void createGUI() {
+		final JFrame f = new JFrame("Subset sum");
+		JPanel buttonPanel = new JPanel();
+
+		JLabel spendLabel = new JLabel ("How much to spend?");
+		final JTextField spendField = new JTextField ("10", 5);
+		spendField.addActionListener(new ActionListener() {
+
+			public void actionPerformed(ActionEvent arg0) {
+				if (items != null) {
+					String shopOutput = shop(items, Integer.parseInt(spendField.getText()));
+					outputArea.setText(shopOutput);
+				}
+			}
+			
+		});
+		buttonPanel.add(spendLabel);
+		buttonPanel.add(spendField);
+
+		final JButton scheduleButton = new JButton("What should I buy?");
+		scheduleButton.addActionListener(new ActionListener() {
+
+			public void actionPerformed(ActionEvent e) {
+				JFileChooser chooser = new JFileChooser(System
+						.getProperty("user.dir"));
+				
+				if (chooser.showOpenDialog(f) == JFileChooser.APPROVE_OPTION) {
+					File file = chooser.getSelectedFile();
+					try {
+						items = readItems(file);
+						String shopOutput = shop(items, Integer.parseInt(spendField.getText()));
+						outputArea.setText(shopOutput);
+					} catch (Exception exc) {
+						JOptionPane.showMessageDialog(f,
+								"File does not contain a list of items.");
+						System.out.println(exc);
+					}
+				}
+
+			}
+
+		});
+
+		buttonPanel.add(scheduleButton);
+
+		Container c = f.getContentPane();
+		outputArea.setEditable(false);
+		JScrollPane outputScrollArea = new JScrollPane(outputArea);
+		c.add(outputScrollArea, BorderLayout.CENTER);
+		c.add(buttonPanel, BorderLayout.SOUTH);
+		f.pack();
+		f.setVisible(true);
+	}
+
+	/**
+	 * Reads a list of items from a file. See the class comment for information about
+	 * the file format.
+	 * 
+	 * @param file
+	 *            the file to read the graph from.
+	 * @throws IOException if the file cannot be read or does not contain a graph
+	 */
+	private static Item[] readItems(File file) throws IOException {
+		BufferedReader in = new BufferedReader(new FileReader(file));
+
+		// The first line of input is an integer identifying the number of
+		// items.
+		int numItems = Integer.parseInt(in.readLine());
+		Item[] items = new Item[numItems];
+
+		// Read in the items, one per line
+		for (int i = 0; i < numItems; i++) {
+			String nextRequest = in.readLine();
+			String[] tokens = nextRequest.split(",");
+			items[i] = new Item(tokens[0], Integer.parseInt(tokens[1]));
+		}
+		
+		return items;
+
+	}
+
+	/**
+	 * Determine what the user can afford
+	 * @param the items to choose from
+	 * @param amount the maximum amount to spend
+	 * @return the list of items to purchase and the total amount spent
+	 */
+	private static String shop(Item[] items, int amount) {
+		int[][] M = new int[items.length+1][amount+1];
+		
+		for(int i=0; i<amount+1; ++i)
+		{
+			M[0][i] = 0;
+			System.out.println("hey");
+		}
+		
+		for(int i=1; i<items.length+1; ++i)
+		{
+			for(int j=0; j<amount+1; ++j)
+			{
+				if(items[i-1].getPrice()>j)
+				{
+					M[i][j] = M[i-1][j];
+				}
+				else
+				{
+					if(M[i-1][j] < j+M[i-1][amount-items[i-1].getPrice()])
+					{
+						M[i][j]=j+M[i-1][amount-items[i-1].getPrice()];
+						System.out.println("hey what gives" + M[i-1][amount-items[i-1].getPrice()]);
+					}
+					else
+					{
+						M[i][j] = M[i-1][j];
+					}
+				}
+			}
+		}
+		for(int i=0; i<M.length; ++i)
+		{
+			for(int j=0; j<M[i].length; ++j)
+			{
+				System.out.println(M[i][j]);
+			}
+		}
+		
+		int dollarSum = 0;
+		String itemString = "";
+		int i = M.length-1;
+		int j = M[i].length-1;
+		
+		while(i!=0)
+		{
+			System.out.println("i: " +(i-1));
+			System.out.println("j: " +j);
+			if(M[i][j] == M[i-1][j])
+			{
+				i-=1;
+			}
+			else{
+				itemString += items[i-1].getName();
+				dollarSum += items[i-1].getPrice();
+				j-=items[i-1].getPrice();
+				i-=1;
+			}
+		}
+		return "You can spend $" + dollarSum +" on " + itemString;
+		//return "You can spend money of stuff";
+		
+	}
+
+	/**
+	 * Creates the user interface
+	 * @param args none used
+	 */
+	public static void main(String[] args) {
+		createGUI();
+	}
+
+}

@@ -1,0 +1,46 @@
+# Caitlin Coggins
+provide *
+
+# A stream is an unbounded list
+data Stream<T>:
+  | lz-link(head :: T, rest :: ( -> Stream<T>))
+end
+
+# This function returns a stream of natural numbers
+# that starts with the parameter passed in.
+fun nats-from(n :: Number) -> Stream<Number>:
+  lz-link(n, lam() : nats-from(n + 1) end)
+end
+
+# This allows us to get a value out of a stream
+fun lz-first<T>(str :: Stream<T>) -> T:
+  str.head
+end
+
+# This gives us the stream that begins at the
+# second value
+fun lz-rest<T>(str :: Stream<T>) -> Stream<T>:
+  str.rest()
+end
+
+# This gives us the first num values of the stream
+# as a list
+fun take<T>(num :: Number, str :: Stream<T>) -> List<T>:
+  if (num <= 0) : empty
+  else:
+    link(lz-first(str), take(num - 1, lz-rest(str)))
+  end
+end
+
+# Returns a stream starting with the value passed in 
+# as 'start' and performing the function 'f' to get the next
+# value in the stream.  This value becomes the new seed for the 
+# rest of the stream.
+fun streamFromSeed<a>(f :: (a -> a), seed :: a) -> Stream<a>:
+  lz-link(seed, lam() -> Stream<a>: streamFromSeed(f, f(seed))end)
+end
+
+# Returns a stream of powers of 2 beginning with 1
+fun powers-of-2() -> Stream<Number>:
+  streamFromSeed(lam(val :: Number) -> Number: val * 2 end, 1)
+end

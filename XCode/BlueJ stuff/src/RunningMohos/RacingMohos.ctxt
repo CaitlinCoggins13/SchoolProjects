@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ begin()
+comment0.text=\n\ Display\ the\ three\ lane\ lines,the\ starting\ line,\ the\ finishing\ line,\ the\ four\ mascots\ and\ the\ text\ when\n\ \ \ \ \ \ \ the\ program\ starts.\n
+comment1.params=point
+comment1.target=void\ onMouseClick(objectdraw.Location)
+comment1.text=\n\ When\ the\ user\ uses\ the\ mouse\ to\ click\ on\ any\ point\ on\ the\ screen,\ all\ four\ mascots\ start\ to\ move\n\ \ \ \ \ \ \ horizontally\ on\ the\ lanes\ with\ different\ random\ speeds\ and\ stop\ after\ they\ cross\ the\ finishing\ line.\n
+numComments=2

@@ -1,0 +1,45 @@
+/**
+ * Represents a weighted edge
+ * @author Barbara Lerner
+ * @version March 20, 2011
+ *
+ */
+public class Edge implements Comparable<Edge> {
+	// First endpoint
+	private final Node node1;
+	
+	// Second endpoint
+	private final Node node2;
+	
+	// Edge weight
+	private final int weight;
+	
+	public Edge (Node n1, Node n2, int wght) {
+		node1 = n1;
+		node2 = n2;
+		weight = wght;
+	}
+
+	public Node getNode1() {
+		return node1;
+	}
+
+	public Node getNode2() {
+		return node2;
+	}
+
+	public int getWeight() {
+		return weight;
+	}
+
+	/**
+	 * Used to sort from lowest weight to highest
+	 */
+	public int compareTo(Edge other) {
+		return weight - other.weight;
+	}
+	
+	public String toString () {
+		return "(" + node1 + ", " + node2 + ")"; 
+	}
+}

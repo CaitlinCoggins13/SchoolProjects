@@ -1,0 +1,82 @@
+
+
+/**
+ * An undirected graph
+ * 
+ * @author Barbara Lerner
+ * @version February 12, 2011
+ *
+ */
+public class Graph {
+	// The nodes in the graph
+	private Node[] nodes;
+	
+	private Edge[] edges;
+	private int nextEdge;
+	
+	/**
+	 * Creates a graph initially with no edges
+	 * @param numNodes the number of nodes in the graph.  Must be >= 0
+	 */
+	public Graph (int numNodes, int numEdges) {
+		assert numNodes >= 0;
+		
+		nodes = new Node[numNodes];
+		for (int i = 0; i < numNodes; i++) {
+			nodes[i] = new Node(i);
+		}
+		
+		edges = new Edge[numEdges];
+	}
+
+	/**
+	 * Add an undirected edge to the graph.  start and end must be >= 0 
+	 * and < number of nodes in the graph
+	 * @param start one node
+	 * @param end other node
+	 */
+	public void addEdge(int start, int end, int weight) {
+		assert start >= 0 && start < nodes.length;
+		assert end >= 0 && end < nodes.length;
+		
+		Edge newEdge = new Edge (nodes[start], nodes[end], weight);
+		nodes[start].addEdge(newEdge);
+		nodes[end].addEdge(newEdge);
+		edges[nextEdge] = newEdge;
+		nextEdge++;
+		
+		assert nextEdge <= edges.length;
+	}
+
+	/**
+	 * Returns the node with the given label
+	 * @param i the label
+	 * @return the node with that label.  Returns null if ther
+	 * 		is no such node.
+	 */
+	public Node getNode(int i) {
+		if (i < 0 || i >= nodes.length) {
+			return null;
+		}
+		return nodes[i];
+	}
+	
+	/**
+	 * Return the number of nodes in the graph
+	 * @return the number of nodes in the graph
+	 */
+	public int numNodes() {
+		return nodes.length;
+	}
+
+	/**
+	 * Clear the marks on all the nodes in the graph
+	 */
+	public void clearAllMarks() {
+		for (Node n : nodes) {
+			n.setMarked(false);
+		}
+	}
+
+
+}
